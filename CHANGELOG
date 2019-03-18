@@ -1,0 +1,16 @@
+# Changelog
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [Unreleased]
+
+### Added
+- White-label project structure, featuring basic modules and theme configuration
+system;
+- White-label configuration script, for configuring modules and theme
+automatically;
+- White-label generation script, for generating a new project, from the
+white-label, with custom bundle identifier, display name and configuration;
+- Apache 2.0 license.

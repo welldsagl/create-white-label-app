@@ -9,6 +9,18 @@ a white-label application. The white-label app supports modules composition and
 theme configuration, thay can be changed on the fly and applications with custom
 configurations can be generated.
 
+## Usage
+
+To start using and customize the white-label app, do the following
+
+1. Install dependencies with `yarn install`;
+2. Add/modify modules in `whitelabel/modules` (see [Modules](#modules));
+3. Add/modify themes in `whitelabel/theme` (see [Themes](#themes));
+4. Configure the application (see [White-label configuration](#white-label-configuration));
+5. Run the application.
+
+__N.B.: You must configure the application at least once for it to work!__
+
 ## The white-label project
 
 The white-label project is a modular React Native application. It features
@@ -166,3 +178,7 @@ will be exported, so `-m Foo,Bar` is different from `-m Bar,Foo`.
 
 This work is not definitive and doesn't provide yet all features of a
 white-label application, but it is a starting point.
+
+## License
+
+Everything inside this repository is [Apache 2.0 licensed](./LICENSE).
